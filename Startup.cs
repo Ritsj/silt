@@ -62,7 +62,7 @@ namespace Silt
 						 name: "default",
 						 pattern: "{controller}/{action=Index}/{id?}");
 			});
-
+			//test
 			app.UseSpa(spa =>
 			{
 				spa.Options.SourcePath = "ClientApp";
